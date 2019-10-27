@@ -1,0 +1,127 @@
+.container{
+    margin: 5vh auto;
+    height: 100vh;
+    width: 100vh;
+    box-shadow: 0px 0px 3px gray;
+    position: relative;
+}
+.row>h3{
+    color: white;
+    text-align: center;
+
+}
+.row{
+    position: relative;
+}
+select{
+    /*float: right;
+    position: absolute;
+    top: 2px;
+    right: 2px;*/
+    margin-left: 5px;
+}
+.container-row{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.input-img{
+    display: flex;
+}
+.input-img>input{
+    margin-right: 5px;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #2C83B7, #86E6F1);
+    color: #fff;
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 20%;
+    box-shadow: 0 0 2px gray;
+}
+button:hover{
+    background: linear-gradient(to right, #617BB3,#86E6F1 );
+}
+button:focus{
+    background: linear-gradient(to right, #617BB3,#86E6F1 );
+}
+span{
+    font-size: 24px;
+    color: white;
+}
+.dolar{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.container-result{
+    display: flex;
+    flex-direction: column;
+}
+.caja{
+    display: flex;
+}
+.caja>*{
+    font-size: 16px;
+    padding-left: 5px;
+}
+.caja>p{
+    font-weight: bold;
+    font-size: 14px;
+}
+.caja:last-child{
+    margin-bottom: 50px;
+}
+.caja1{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.caja1>*{
+    margin-right: 10px;
+}
+.caja1>h5{
+    font-size: 12px;
+}
+.caja1>p{
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 6px;
+}
+.img{
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+}
+.img-cont{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.caja-padre{
+    position: relative;
+}
+form{
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+h3{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
