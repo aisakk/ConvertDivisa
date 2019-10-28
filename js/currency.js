@@ -62,10 +62,10 @@ let http = fetch('https://s3.amazonaws.com/dolartoday/data.json')
     		`;
 			})
 			.catch(error=>{
-				alert('Error no se pudo traer el Archivo: '+ error.message + '\n Se refrescara la pagina en 2sg')
+				alert('Error no se pudo conectar a la Api: '+ error.message + '\n Revise su proxy o conexion de internet se refrescara la pagina en 5sg')
 				setTimeout(()=>{
 					location.reload()
-				}, 1000)
+				}, 5000)
 			})
 
 
